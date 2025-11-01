@@ -1,0 +1,16 @@
+{
+  "name": "SmartAgri AI",
+  "short_name": "SmartAgri",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4B8B3B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "smartagri_icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
