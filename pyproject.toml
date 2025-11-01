@@ -1,0 +1,13 @@
+[tool.briefcase]
+project_name = "SmartAgri AI"
+version = "0.1.0"
+description = "Intelligent digital farming assistant"
+authors = ["Haarini SK <haarini.sk2022@vitstudent.ac.in>"]
+
+[tool.briefcase.app.smartagri]
+formal_name = "SmartAgri AI"
+module = "app"
+sources = ["."]
+requires = ["streamlit", "pandas", "numpy", "matplotlib"]
+license.file = "LICENSE"
+bundle = "com.haarini.smartagri"
