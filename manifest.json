@@ -1,16 +1,33 @@
 {
   "name": "SmartAgri AI",
   "short_name": "SmartAgri",
+  "id": "smartagri-ai",
+  "description": "🌾 SmartAgri AI is an intelligent digital farming assistant that provides crop recommendations, weather forecasts, market insights, fertilizer calculators, loan assistance, and multilingual chatbot support for Indian farmers.",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#FFFFFF",
   "theme_color": "#4B8B3B",
-  "orientation": "portrait",
   "icons": [
     {
       "src": "smartagri_icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot_home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Home Dashboard"
+    },
+    {
+      "src": "screenshot_features.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Crop Recommendation & Market Forecast"
     }
   ]
 }
