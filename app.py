@@ -6,6 +6,16 @@ import plotly.express as px
 import plotly.graph_objects as go
 import json
 from datetime import datetime, timedelta
+import streamlit as st
+
+# Inject the manifest into the HTML head
+st.markdown(
+    """
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4B8B3B">
+    """,
+    unsafe_allow_html=True
+)
 
 # ----------------------------
 # APP CONFIG
@@ -1082,4 +1092,5 @@ elif choice == "Settings":
 # Footer
 st.markdown("---")
 st.markdown("<p style='text-align:center;color:#4B8B3B;'>🌾 SmartAgri AI - Empowering Indian Farmers | Made with ❤️ for our Annadatas</p>", 
+
             unsafe_allow_html=True)
