@@ -17,6 +17,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
 # ----------------------------
 # APP CONFIG
 # ----------------------------
@@ -1094,3 +1095,4 @@ st.markdown("---")
 st.markdown("<p style='text-align:center;color:#4B8B3B;'>🌾 SmartAgri AI - Empowering Indian Farmers | Made with ❤️ for our Annadatas</p>", 
 
             unsafe_allow_html=True)
+
